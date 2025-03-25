@@ -7,7 +7,7 @@ This Python script processes an Excel workbook to:
 3. Create a bar chart visualizing the discounted prices
 
 ## Features
-- Uses the `openpyxl` library to manipulate Excel files
+- Uses the openpyxl library to manipulate Excel files
 - Reads data from "Sheet1" of the specified workbook
 - Processes all rows from row 2 to the last row with data
 - Creates a new column with corrected prices (original prices × 0.9)
@@ -26,7 +26,7 @@ This Python script processes an Excel workbook to:
    ```
 
 ## Parameters
-- `filename`: Path to the Excel file to be processed (must be .xlsx format)
+- filename: Path to the Excel file to be processed (must be .xlsx format)
 
 ## Output
 The script modifies the input file by:
